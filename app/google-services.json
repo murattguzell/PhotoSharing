@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1077140231745",
+    "project_id": "photosharing-8a732",
+    "storage_bucket": "photosharing-8a732.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077140231745:android:0a8d3f3f60a16f51a898c0",
+        "android_client_info": {
+          "package_name": "com.muratguzel.photosharingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjjNSaVf1UUJE49Bi_Gwq94kjJ7jnr9jU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

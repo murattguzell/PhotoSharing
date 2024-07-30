@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/registerAndLoginFragment">
+
+    <fragment
+        android:id="@+id/registerAndLoginFragment"
+        android:name="com.muratguzel.photosharingapp.view.RegisterAndLoginFragment"
+        android:label="fragment_register_and_login"
+        tools:layout="@layout/fragment_register_and_login" >
+        <action
+            android:id="@+id/action_registerAndLoginFragment_to_feedFragment"
+            app:destination="@id/feedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/uploadFragment"
+        android:name="com.muratguzel.photosharingapp.view.UploadFragment"
+        android:label="UploadFragment" >
+        <action
+            android:id="@+id/action_uploadFragment_to_feedFragment"
+            app:destination="@id/feedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="com.muratguzel.photosharingapp.view.FeedFragment"
+        android:label="fragment_feed"
+        tools:layout="@layout/fragment_feed" >
+        <action
+            android:id="@+id/action_feedFragment_to_uploadFragment"
+            app:destination="@id/uploadFragment" />
+        <action
+            android:id="@+id/action_feedFragment_to_registerAndLoginFragment"
+            app:destination="@id/registerAndLoginFragment" />
+    </fragment>
+</navigation>
