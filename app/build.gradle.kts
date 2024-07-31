@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
     id("com.google.gms.google-services")
+    id ("kotlin-kapt")
     id("androidx.navigation.safeargs.kotlin")
 }
 
@@ -59,5 +60,5 @@ dependencies {
 
     implementation(libs.androidx.navigation.fragment)
     implementation(libs.androidx.navigation.ui)
-
+    implementation (libs.picasso)
 }

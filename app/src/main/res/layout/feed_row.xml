@@ -28,8 +28,8 @@
 
         <ImageView
             android:id="@+id/recyclerImageView"
-            android:layout_width="320dp"
-            android:layout_height="240dp"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
             android:layout_gravity="center_horizontal"
             android:layout_margin="10dp"
             app:srcCompat="@drawable/ic_launcher_background"
